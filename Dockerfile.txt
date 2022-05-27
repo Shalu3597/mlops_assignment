@@ -1,0 +1,6 @@
+FROM continuumio/anaconda3:4.4.0
+COPY . /application
+EXPOSE 8000
+WORKDIR /application
+RUN pip install -r requirements.txt
+CMD ["python3", "iris_2.py"]
