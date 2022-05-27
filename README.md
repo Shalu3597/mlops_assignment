@@ -26,4 +26,10 @@ Read the pickle file. <br>
 Imported flasgger. <br>
 GET Method used to get the input of 4 featues and predictions done. <br>
 Getting the test file data. <br>
-Implementd drift in flask.<br>
+Implemented drift in flask.<br>
+# Creating container in Docker
+Created dockerfile.txt and from anaconds copied the appropriate folder and run python code<br>
+Created requirements.txt <br>
+Creating container:<br> docker build -t application_1 -f Dockerfile.txt . <br>
+Running the application:<br> docker run -p 8000:8000 application_1 <br>
+
